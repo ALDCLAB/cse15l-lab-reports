@@ -1,7 +1,7 @@
 
 # Remote Access and The File System #  
 ## Visual Studio Code ##  
-All other steps were done within Visual Studio Code. I already downloaded Visual Studio Code before, so this step was already done for me.
+All other steps were done within Visual Studio Code. I already downloaded Visual Studio Code before, so this step was already done for me. From what I remember, I went to the official site and downloaded Visual Studio Code from there.  
 ![Image](visualstudiocodelab.PNG)  
 ---  
 
