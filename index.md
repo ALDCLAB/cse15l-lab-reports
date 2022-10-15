@@ -2,7 +2,7 @@
 ## THE INDEX ##
 
 [Lab Report 1](https://github.com/ALDCLAB/cse15l-lab-reports/blob/main/lab_report_1.md)  
-[Lab Report 2](https://github.com/ALDCLAB/cse15l-lab-reports/blob/main/lab_report_2.md)
+[Lab Report 2](https://github.com/ALDCLAB/cse15l-lab-reports/blob/main/lab_report_2.md)  
 placeholder for later weeks  
 placeholder for later weeks  
 placeholder for later weeks  
