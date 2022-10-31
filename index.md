@@ -1,6 +1,6 @@
 # Lab Report 3 #  
 ## grep command ##  
-`-R`  
+  
 ```
 grep -R [Search Word/Phrase] [Directory]
 ```  
@@ -74,7 +74,7 @@ The list continues...
 ```  
 Here is an example of the `grep -iR` command with water on the government directory. we haven't mentioned this yet, but the command also shows everytime it is mentioned in the same file, to show how much they talked about the topic, which is in this case, is water.  
 
-`-N `
+
 ```
 grep -n [Search Word/Phrase] [FileName]
 ```  
@@ -118,7 +118,7 @@ Here, we use `grep -n` on a file in technical/biomed/ (that we found on the last
 Here, we use `grep -n` on a file in technical/government/Env_Prot_Agen/.
 It shows that this is a decently large file, and water is somewhat plays a part in the topic that is discussed in the file.  
 
-`-A & -B`  
+  
 ```  
 grep -(A or B) [Number of Lines Wanted] [Search Word/Phrase] [FileName]
 ```    
