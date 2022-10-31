@@ -49,7 +49,8 @@ The list continues on...
 ```
 Here is a `iR` search of the word "smoking" in the technical/biomed/ folder. Now, if all the files here are talking about the correct "smoking" topic, you have tons of files to read up on smoking!  
 
-![Image](Screenshots/grepIRexample3.PNG)
+![Image](Screenshots/grepIRexample3.PNG)  
+
 ```
 technical/government/Env_Prot_Agen/1-3_meth_901.txt:other aquatic life in the receiving waters. The endpoints that have
 technical/government/Env_Prot_Agen/1-3_meth_901.txt:establish water quality criteria.
@@ -80,13 +81,15 @@ grep -n [Search Word/Phrase] [FileName]
 ```  
 The command option `-n` of the grep command lets you be able to search for the search word phrase inside of a file. If it finds it, it shows you the line of where it is at. This is quite useful to do when you are in a huge file with tons of text or code in it.  
 ![Image](Screenshots/grepNexample2.PNG)  
+
 ```
 grep -n microorganisms technical/plos/journal.pbio.0020035.txt
 6:        For half a century, natural products from microorganisms have been the main source of
 ```  
 Here, we use `grep -n` on a file in technical/plos/ . It shows that the file only mentioned microorganisms once and only on line 6 of the file. Seeing that it is only one mention, it is either a small file or the main point of the file is something else.  
 
-![Image](Screenshots/grepNexample3.PNG)  
+![Image](Screenshots/grepNexample3.PNG) 
+
 ```
 grep -n smoking technical/biomed/1468-6708-3-1.txt
 10:        non-smoking older adults have investigated the association
@@ -100,6 +103,7 @@ grep -n smoking technical/biomed/1468-6708-3-1.txt
 Here, we use `grep -n` on a file in technical/biomed/ (that we found on the last command with `-iR`!). It shows that the file mentioned  smoking on multiple lines, like on line 132. Looking at the lines, we can also tell that it is a decently sized file of text and talks about smoking in some kind of way.  
 
 ![Image](Screenshots/grepNexample1.PNG)  
+
 ```
  grep -n water technical/government/Env_Prot_Agen/1-3_meth_901.txt
 13:other aquatic life in the receiving waters. The endpoints that have
@@ -118,13 +122,14 @@ Here, we use `grep -n` on a file in technical/biomed/ (that we found on the last
 Here, we use `grep -n` on a file in technical/government/Env_Prot_Agen/.
 It shows that this is a decently large file, and water is somewhat plays a part in the topic that is discussed in the file.  
 
-  
+
 ```  
 grep -(A or B) [Number of Lines Wanted] [Search Word/Phrase] [FileName]
 ```    
 The command options `-A` and `B` of the grep command lets you be able to see the lines **AFTER** or **BEFORE** the line that the searched word or phrase is in. You can choose how many lines before and after you want to see. This helps fiute out what the file topic is about and if it is the thing you are looking for.  
 
-![Image](Screenshots/grepBAexample2.PNG)  
+![Image](Screenshots/grepBAexample2.PNG) 
+
 ```
 grep -B 3 microorganisms technical/plos/journal.pbio.0020035.txt
     
@@ -140,6 +145,7 @@ grep -A 3 microorganisms technical/plos/journal.pbio.0020035.txt
 We used `grep -B` and `grep-A` in the same file that we used in the `-n` example in the technical/plos/ directory. For this example, since the word microorganisms was located on the first line that had text in the file, it had only provided empty lines before it. We choose 3 lines, so it showed the 3 lines before and after the microorganisms.  
 
 ![Image](Screenshots/grepAexample3.PNG)  
+
 ```
 grep -A 3 smoking technical/biomed/1468-6708-3-1.txt
         non-smoking older adults have investigated the association
@@ -174,6 +180,7 @@ The list continues...
 ```  
 
 ![Image](Screenshots/grepBexample3.PNG)  
+
 ```
 grep -B 3 smoking technical/biomed/1468-6708-3-1.txt
         even though there is little evidence that overweight is
@@ -244,6 +251,7 @@ Mysidopsis bahia, and five metals. For six of the eight organic
 The list continues...  
 ```  
 ![Image](Screenshots/grepBexample1.png)  
+
 ```
 grep -B 3 water technical/government/Env_Prot_Agen/1-3_meth_901.txt
 pure compounds is to estimate the "safe" or "no-effect"
