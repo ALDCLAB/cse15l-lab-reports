@@ -1,6 +1,6 @@
 # Lab Report 3 #  
 ## grep command ##  
-```-R```  
+ 
 ```grep -R [Search Word/Phrase] [Directory]```  
 The command option -R of the grep command lets you be able to search for a word or phrase for all the files in a directory. This is useful when it is needed to find relevant files in a huge folder of files.  
 ![Image](Screenshots/grepIRexample1.png)  
