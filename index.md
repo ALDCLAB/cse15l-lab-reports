@@ -1,7 +1,9 @@
 # Lab Report 3 #  
 ## grep command ##  
- 
-```grep -R [Search Word/Phrase] [Directory]```  
+`-R`  
+```
+grep -R [Search Word/Phrase] [Directory]
+```  
 The command option -R of the grep command lets you be able to search for a word or phrase for all the files in a directory. This is useful when it is needed to find relevant files in a huge folder of files.  
 ![Image](Screenshots/grepIRexample1.png)  
 
@@ -14,6 +16,7 @@ technical/plos/journal.pbio.0020276.txt:        the central nervous system, etc.
 technical/plos/journal.pbio.0030102.txt:        The association and interaction between benthic fauna and sedimentary microorganisms is
 technical/plos/pmed.0020015.txt:        microorganisms, including changes in the resident flora or changes in the incidence of
 ```  
+
 (the command here is `-iR` to avoid any case sensitive problems.) -i is a good way to avoid case sensitive problems!  
 In this example, it tells you all the files that have the word "microorganisms" in it, showing which files are related to the searched word or phrase. This is useful if you wanted information about microorganisms, as now you know which files to go to that are relevant to your search.  
 
@@ -71,8 +74,10 @@ The list continues...
 ```  
 Here is an example of the `grep -iR` command with water on the government directory. we haven't mentioned this yet, but the command also shows everytime it is mentioned in the same file, to show how much they talked about the topic, which is in this case, is water.  
 
-```-N```  
-```grep -n [Search Word/Phrase] [FileName]```  
+`-N `
+```
+grep -n [Search Word/Phrase] [FileName]
+```  
 The command option `-n` of the grep command lets you be able to search for the search word phrase inside of a file. If it finds it, it shows you the line of where it is at. This is quite useful to do when you are in a huge file with tons of text or code in it.  
 ![Image](Screenshots/grepNexample2.PNG)  
 ```
@@ -113,8 +118,10 @@ Here, we use `grep -n` on a file in technical/biomed/ (that we found on the last
 Here, we use `grep -n` on a file in technical/government/Env_Prot_Agen/.
 It shows that this is a decently large file, and water is somewhat plays a part in the topic that is discussed in the file.  
 
-```-A & -B```
-`grep -(A or B) [Number of Lines Wanted] [Search Word/Phrase] [FileName]`  
+`-A & -B`  
+```  
+grep -(A or B) [Number of Lines Wanted] [Search Word/Phrase] [FileName]
+```    
 The command options `-A` and `B` of the grep command lets you be able to see the lines **AFTER** or **BEFORE** the line that the searched word or phrase is in. You can choose how many lines before and after you want to see. This helps fiute out what the file topic is about and if it is the thing you are looking for.  
 
 ![Image](Screenshots/grepBAexample2.PNG)  
