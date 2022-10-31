@@ -3,7 +3,8 @@
 ```-R```  
 ```grep -R [Search Word/Phrase] [Directory]```  
 The command option -R of the grep command lets you be able to search for a word or phrase for all the files in a directory. This is useful when it is needed to find relevant files in a huge folder of files.  
-![Image](Screenshots/grepIRexample1.png)
+![Image](Screenshots/grepIRexample1.png)  
+
 ```
 grep -iR microorganisms technical/plos/
 technical/plos/journal.pbio.0020035.txt:        For half a century, natural products from microorganisms have been the main source of
