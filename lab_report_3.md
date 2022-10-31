@@ -13,7 +13,7 @@ technical/plos/journal.pbio.0020276.txt:        the central nervous system, etc.
 technical/plos/journal.pbio.0030102.txt:        The association and interaction between benthic fauna and sedimentary microorganisms is
 technical/plos/pmed.0020015.txt:        microorganisms, including changes in the resident flora or changes in the incidence of
 ```  
-(the command here is `-iR` to avoid any case sensitive problems.) -i is a good way to avoid case sensitive problems!  
+(the command here is `-iR` to avoid any case sensitive problems.)
 In this example, it tells you all the files that have the word "microorganisms" in it, showing which files are related to the searched word or phrase. This is useful if you wanted information about microorganisms, as now you know which files to go to that are relevant to your search.  
 
 ![Image](Screenshots/grepIRexample2.PNG)  
