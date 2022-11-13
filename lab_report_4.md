@@ -29,7 +29,7 @@ All in all, the entire key sequence was:
 
 Doing the edit in both styles, in editing hand person and scping to the server and editing in vim. 
 
-The vim one was faster, as I did not have to go in the file and try to find all occurences of start. I also did not have to scp the edited file to the server. (I know the directions tell me to have the scp command saved, but I consider that work as well since we don't magically have it and we have to do that atleast once) 
+The vim one was faster (1min), as I did not have to go in the file and try to find all occurences of start. I also did not have to scp the edited file to the server. (this way took around 1 min 30 sec) (I know the directions tell me to have the scp command saved, but I consider that work as well since we don't magically have it and we have to do that atleast once) 
 
 I would say it would depend on the type of edit you want to do. It depends if it is a edit that could be finished with vim commands or not. If not,then the editing the file and scping could be faster. 
 
